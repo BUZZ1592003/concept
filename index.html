@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A luxury interior design studio creating elegant homes, offices, and hospitality spaces with bespoke concepts, 3D visualization, and end-to-end execution." />
+    <meta name="theme-color" content="#0f0f10" />
+    <meta property="og:title" content="Interior Concepts | Luxury Interior Design Studio" />
+    <meta property="og:description" content="Transforming spaces into timeless experiences with premium interior design, renovation, and modular solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80" />
+    <title>Interior Concepts | Luxury Interior Design Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-transition"></div>
+    <a class="sticky-inquiry" href="#contact">Start Inquiry</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Interior Concepts home">Interior Concepts</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#portfolio">Portfolio</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="header-cta" href="#contact">Get Free Consultation</a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">Menu</button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section-shell">
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80')"></div>
+          <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80')"></div>
+          <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1484156818044-c04b64b3bb0d?auto=format&fit=crop&w=1600&q=80')"></div>
+          <div class="hero-overlay"></div>
+          <div class="hero-parallax" data-parallax></div>
+        </div>
+        <div class="container hero-content reveal">
+          <p class="eyebrow">Luxury interior design studio</p>
+          <h1>Transforming Spaces Into Timeless Experiences</h1>
+          <p class="hero-copy">We design elegant residences, boutique offices, and statement villas with tailored concepts, refined materials, and end-to-end execution that impresses discerning clients.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#portfolio">View Portfolio</a>
+            <a class="button button-secondary" href="#contact">Get Free Consultation</a>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card glass">
+              <strong data-counter="248">0</strong>
+              <span>Projects Completed</span>
+            </article>
+            <article class="stat-card glass">
+              <strong data-counter="190">0</strong>
+              <span>Happy Clients</span>
+            </article>
+            <article class="stat-card glass">
+              <strong data-counter="12">0</strong>
+              <span>Years of Experience</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell spotlight reveal">
+        <div class="container spotlight-grid">
+          <article class="spotlight-card glass">
+            <p class="spotlight-label">Signature Approach</p>
+            <h2>Quiet luxury, crafted for how high-end living actually feels.</h2>
+          </article>
+          <article class="spotlight-card glass">
+            <p>From concept to handover, we pair architecture-led thinking with tactile finishes, cinematic lighting, and seamless project delivery.</p>
+          </article>
+          <article class="spotlight-card glass">
+            <p>Designed to convert, the experience balances premium storytelling, instant trust signals, and direct lead capture throughout the journey.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-shell section-pad reveal">
+        <div class="container section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Spaces with depth, texture, and restraint.</h2>
+          <p>Browse our curated collection across residential, commercial, and luxury hospitality interiors.</p>
+        </div>
+        <div class="container filter-row" role="tablist" aria-label="Portfolio categories">
+          <button class="filter active" data-filter="all" type="button">All</button>
+          <button class="filter" data-filter="living" type="button">Living Room</button>
+          <button class="filter" data-filter="bedroom" type="button">Bedroom</button>
+          <button class="filter" data-filter="kitchen" type="button">Modular Kitchen</button>
+          <button class="filter" data-filter="office" type="button">Office Interior</button>
+          <button class="filter" data-filter="villa" type="button">Luxury Villa</button>
+          <button class="filter" data-filter="commercial" type="button">Commercial Spaces</button>
+        </div>
+        <div class="container masonry-grid" id="portfolioGrid">
+          <button class="project-card masonry-item living" data-project="A serene living room with layered marble, warm oak, and bespoke joinery." data-title="Living Room Collection" data-image="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80" type="button">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Luxury living room interior" />
+            <span>Living Room</span>
+          </button>
+          <button class="project-card masonry-item bedroom" data-project="A soft bedroom suite with mood lighting, natural textures, and hotel-grade calm." data-title="Bedroom Suite" data-image="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80" type="button">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Luxury bedroom interior" />
+            <span>Bedroom</span>
+          </button>
+          <button class="project-card masonry-item kitchen" data-project="A modular kitchen with refined finishes, concealed storage, and precise lighting." data-title="Modular Kitchen" data-image="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1600&q=80" type="button">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80" alt="Luxury modular kitchen" />
+            <span>Modular Kitchen</span>
+          </button>
+          <button class="project-card masonry-item office" data-project="An executive office interior balancing confidence, acoustics, and contemporary materiality." data-title="Office Interior" data-image="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80" type="button">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Premium office interior" />
+            <span>Office Interior</span>
+          </button>
+          <button class="project-card masonry-item villa" data-project="A sculptural villa concept with gallery-like circulation and bespoke detailing." data-title="Luxury Villa" data-image="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80" type="button">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80" alt="Luxury villa interior" />
+            <span>Luxury Villa</span>
+          </button>
+          <button class="project-card masonry-item commercial" data-project="A hospitality-forward commercial interior built to enhance brand perception." data-title="Commercial Space" data-image="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80" type="button">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80" alt="Premium commercial interior" />
+            <span>Commercial Spaces</span>
+          </button>
+        </div>
+        <div class="container before-after reveal">
+          <article class="before-after-card glass">
+            <span>Before</span>
+            <img loading="lazy" src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1000&q=80" alt="Before renovation" />
+          </article>
+          <article class="before-after-card glass">
+            <span>After</span>
+            <img loading="lazy" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80" alt="After renovation" />
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section-shell section-pad reveal">
+        <div class="container section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>End-to-end interior design, engineered for elegance and performance.</h2>
+        </div>
+        <div class="container cards-grid">
+          <article class="service-card glass"><h3>Residential Interior Design</h3><p>Tailored homes with layered comfort, tailored storage, and premium finishes.</p></article>
+          <article class="service-card glass"><h3>Commercial Interior Design</h3><p>Brand-led environments that improve perception, flow, and client experience.</p></article>
+          <article class="service-card glass"><h3>Modular Kitchen Design</h3><p>Precision planning for high-function kitchens with luxury detailing.</p></article>
+          <article class="service-card glass"><h3>Space Planning</h3><p>Layouts that enhance circulation, light, and the spatial rhythm of each room.</p></article>
+          <article class="service-card glass"><h3>Renovation Services</h3><p>Seamless upgrades with project control, material sourcing, and execution.</p></article>
+          <article class="service-card glass"><h3>3D Design Visualization</h3><p>Photoreal previews that help you approve confident decisions early.</p></article>
+        </div>
+      </section>
+
+      <section id="about" class="section-shell section-pad reveal">
+        <div class="container about-grid">
+          <article>
+            <p class="eyebrow">About Us</p>
+            <h2>We design for clients who want taste, clarity, and certainty.</h2>
+            <p>Our studio blends architecture, interior styling, and project execution into a single premium experience. We believe luxury is not excess; it is precision, proportion, and trust.</p>
+            <div class="timeline">
+              <div><strong>2014</strong><span>Founded with a focus on bespoke homes</span></div>
+              <div><strong>2018</strong><span>Expanded into commercial and hospitality projects</span></div>
+              <div><strong>2026</strong><span>Delivering signature luxury interiors across India</span></div>
+            </div>
+          </article>
+          <article class="team-card glass">
+            <h3>Our Team</h3>
+            <p>A multidisciplinary team of designers, architects, stylists, and project managers focused on refined execution.</p>
+            <ul>
+              <li>Concept and planning</li>
+              <li>Material curation</li>
+              <li>Site supervision</li>
+              <li>White-glove handover</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-pad reveal">
+        <div class="container section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Clients remember the experience as much as the result.</h2>
+        </div>
+        <div class="container testimonial-slider">
+          <article class="testimonial active glass">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80" alt="Client portrait" />
+            <div>
+              <div class="stars">★★★★★</div>
+              <p>“Interior Concepts delivered a calm, luxurious home that feels tailored to every detail. The process was clear, premium, and highly professional.”</p>
+              <strong>Ananya Mehta</strong>
+            </div>
+          </article>
+          <article class="testimonial glass">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Client portrait" />
+            <div>
+              <div class="stars">★★★★★</div>
+              <p>“Our office now matches the caliber of our brand. The team handled planning, visuals, and execution with excellent precision.”</p>
+              <strong>Rohit Kapoor</strong>
+            </div>
+          </article>
+          <article class="testimonial glass">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80" alt="Client portrait" />
+            <div>
+              <div class="stars">★★★★★</div>
+              <p>“The villa design is understated and unforgettable. They understood our lifestyle and translated it into a beautiful space.”</p>
+              <strong>Priya Nair</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="process" class="section-shell section-pad reveal">
+        <div class="container section-heading">
+          <p class="eyebrow">Process</p>
+          <h2>A streamlined journey from first conversation to final handover.</h2>
+        </div>
+        <div class="container process-grid">
+          <article class="process-step glass"><strong>1</strong><h3>Consultation</h3><p>We understand goals, style, budget, and timelines.</p></article>
+          <article class="process-step glass"><strong>2</strong><h3>Design Planning</h3><p>Layouts, moodboards, and materials are aligned early.</p></article>
+          <article class="process-step glass"><strong>3</strong><h3>3D Visualization</h3><p>Photoreal concepts help validate the direction before execution.</p></article>
+          <article class="process-step glass"><strong>4</strong><h3>Execution</h3><p>Our team coordinates procurement, site work, and quality checks.</p></article>
+          <article class="process-step glass"><strong>5</strong><h3>Final Handover</h3><p>The finished space is delivered with polish and precision.</p></article>
+        </div>
+      </section>
+
+      <section class="section-shell section-pad reveal">
+        <div class="container split-grid">
+          <article class="glass blog-card">
+            <p class="eyebrow">Latest Projects</p>
+            <h2>Penthouse calm, crafted with stone, walnut, and ambient light.</h2>
+            <p>An elevated residence that uses texture and restraint to create a deeply luxurious mood.</p>
+          </article>
+          <article class="glass blog-card">
+            <p class="eyebrow">Design Inspirations</p>
+            <h2>How to make compact spaces feel curated, not crowded.</h2>
+            <p>We share spatial tricks, color balance, and material layering ideas in our studio journal.</p>
+          </article>
+          <article class="glass faq-card">
+            <p class="eyebrow">FAQ</p>
+            <details open><summary>How long does a typical project take?</summary><p>Most projects run between 8 and 24 weeks depending on scope and customization.</p></details>
+            <details><summary>Do you offer end-to-end execution?</summary><p>Yes. We manage design, coordination, execution, and final styling.</p></details>
+            <details><summary>Can I start with a free consultation?</summary><p>Absolutely. Use the form below or WhatsApp us to schedule one.</p></details>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-pad reveal">
+        <div class="container section-heading">
+          <p class="eyebrow">Instagram</p>
+          <h2>Studio snapshots and current inspirations.</h2>
+        </div>
+        <div class="container instagram-grid">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=600&q=80" alt="Interior inspiration 1" />
+          <img loading="lazy" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80" alt="Interior inspiration 2" />
+          <img loading="lazy" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=600&q=80" alt="Interior inspiration 3" />
+          <img loading="lazy" src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=600&q=80" alt="Interior inspiration 4" />
+        </div>
+      </section>
+
+      <section id="location" class="section-shell section-pad reveal">
+        <div class="container section-heading">
+          <p class="eyebrow">Location</p>
+          <h2>Visit our studio on Google Maps.</h2>
+          <p>Find our business location, nearby access, and directions from the shared map link below.</p>
+        </div>
+        <div class="container location-grid">
+          <div class="glass location-panel">
+            <div class="location-meta">
+              <h3>Interior Concepts</h3>
+              <p>SHARMA SERVICE STATION NH - 1, KULDIP NAGAR, Ambala Cantt, Haryana 133004</p>
+              <p>Mon-Sat, 10:00 AM - 7:00 PM</p>
+            </div>
+            <a class="map-preview" href="https://www.google.com/maps/dir//Interior+Concepts,+SHARMA+SERVICE+STATION+NH+-+1,+KULDIP+NAGAR,+Ambala+Cantt,+Haryana+133004/@30.3572884,76.8836256,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390fb6059063eedb:0x55fc8ff1b2ccb07!2m2!1d76.8388829!2d30.3176845?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">
+              <span>Open Directions</span>
+              <strong>Tap to view Interior Concepts on Google Maps</strong>
+            </a>
+            <a class="button button-secondary" href="https://www.google.com/maps/dir//Interior+Concepts,+SHARMA+SERVICE+STATION+NH+-+1,+KULDIP+NAGAR,+Ambala+Cantt,+Haryana+133004/@30.3572884,76.8836256,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390fb6059063eedb:0x55fc8ff1b2ccb07!2m2!1d76.8388829!2d30.3176845?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">Open Business Location</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell section-pad reveal">
+        <div class="container contact-grid">
+          <form class="contact-form glass">
+            <p class="eyebrow">Free Consultation</p>
+            <h2>Tell us about your space.</h2>
+            <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" />
+            <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" />
+            <input type="tel" name="phone" placeholder="Phone Number" aria-label="Phone Number" />
+            <textarea name="message" rows="5" placeholder="Project details" aria-label="Project details"></textarea>
+            <button class="button button-primary" type="submit">Request Consultation</button>
+          </form>
+          <aside class="contact-side">
+            <div class="glass contact-card">
+              <h3>Talk to us now</h3>
+              <p>Prefer a direct conversation? Reach our team instantly.</p>
+              <a class="button button-secondary" href="https://wa.me/911234567890" target="_blank" rel="noreferrer">WhatsApp Us</a>
+              <a class="call-link" href="tel:+911234567890">Call Now</a>
+            </div>
+            <div class="glass contact-card map-card">
+              <h3>Our Location</h3>
+              <p>SHARMA SERVICE STATION NH - 1, KULDIP NAGAR, Ambala Cantt, Haryana 133004</p>
+              <a class="button button-secondary" href="https://www.google.com/maps/dir//Interior+Concepts,+SHARMA+SERVICE+STATION+NH+-+1,+KULDIP+NAGAR,+Ambala+Cantt,+Haryana+133004/@30.3572884,76.8836256,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390fb6059063eedb:0x55fc8ff1b2ccb07!2m2!1d76.8388829!2d30.3176845?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">View Business Location</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#home">Interior Concepts</a>
+          <p>Luxury interior design for homes and commercial spaces that deserve more than standard execution.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>hello@interiorconcepts.com</p>
+          <p>+91 12345 67890</p>
+        </div>
+        <div>
+          <h3>Business Hours</h3>
+          <p>Monday - Saturday</p>
+          <p>10:00 AM - 7:00 PM</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" aria-hidden="true">
+      <div class="modal-card glass" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" aria-label="Close modal">×</button>
+        <img alt="Project preview" />
+        <h3 id="modalTitle"></h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="lightbox" aria-hidden="true">
+      <button class="modal-close" type="button" aria-label="Close lightbox">×</button>
+      <img alt="Expanded project" />
+    </div>
+  </body>
+</html>

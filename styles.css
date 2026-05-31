@@ -307,6 +307,28 @@ p {
   padding: 1.4rem;
 }
 
+.spotlight-card {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.spotlight-card h2 {
+  font-size: clamp(1.7rem, 2.2vw, 2.8rem);
+  line-height: 0.95;
+  max-width: 11ch;
+}
+
+.spotlight-card p {
+  margin: 0;
+}
+
+.spotlight-label {
+  margin: 0;
+}
+
 .section-heading {
   margin-bottom: 2rem;
 }
@@ -664,9 +686,13 @@ p {
     display: none;
   }
 
-  .stats-grid,
-  .spotlight-grid {
+  .stats-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .spotlight-grid {
+    grid-template-columns: 1.15fr 0.92fr 0.92fr;
+    align-items: stretch;
   }
 
   .location-panel {
